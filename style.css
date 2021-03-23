@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+body, button, span.date_label, .timeline_items li h3 span, input[type="submit"], input[type="reset"], input[type="button"], input[type="text"], input[type="password"], input[type="tel"], input[type="email"], textarea, select, .offer_li .title h3
+{
+	font-family: "Lato", Arial, Tahoma, sans-serif;
+}
+body {
+ background-image: url("img/home_decor_subheader-1024x361.png");
+}
+input[type="number"]{
+  outline: 0;
+  background: #f2f2f2;
+  width: 100%;
+  border: 0;
+  margin: 0 0 15px;
+  padding: 15px;
+  box-sizing: border-box;
+  font-size: 14px;
+}
+input[type="radio"]{
+	border: 1px solid #39b083;
+    width: 20px;
+    height: 20px;
+    margin-right: 20px;
+    vertical-align: middle;
+    cursor: pointer;
+	display: inline-block;
+    margin-bottom: .5rem;
+}
+
+.button{
+    background: #000 !important;
+    color: #fff !important;
+    font-size: 15px;
+	text-decoration:none !important;
+	text-transform: uppercase;
+	outline: 0;
+	width: 100%;
+	border: 0;
+	padding: 15px;
+    font-size: 14px;
+	-webkit-transition: all 0.3 ease;
+	transition: all 0.3 ease;
+	cursor: pointer;
+}
+.enlace{
+    background: #25d366 !important;
+    color: #fff !important;
+    font-size: 15px;
+	text-decoration:none !important;
+	text-transform: uppercase;
+	outline: 0;
+	width: 100%;
+	border: 0;
+	padding: 15px 80px 15px 80px;
+    font-size: 14px;
+	-webkit-transition: all 0.3 ease;
+	transition: all 0.3 ease;
+	cursor: pointer;
+}		
+.content_wrapper{
+  position: relative;
+  z-index: 1;
+  background: #FFFFFF;
+  max-width: 360px;
+  margin: 0 auto 100px;
+  padding: 45px;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+
+.content_wrapper2{
+  margin-top: -20px;
+  position: relative;
+  z-index: 1;
+  background: #FFFFFF;
+  max-width: 360px;
+  margin: 0 auto;
+  padding: 25px;
+  text-align: center;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+h1{
+	font-size: 20px;
+    line-height: 19px;
+	
+}
+.conexion
+{
+	display: none;
+}
+table {
+	width: 100%;
+	border-collapse: collapse;
+	overflow: hidden;
+	box-shadow: 0 0 20px rgba(0,0,0,0.1);
+	
+}
+
+th,
+td {
+	padding: 15px;
+	background-color: rgba(255,255,255,0.2);
+	color: #333;
+}
+
+th {
+	text-align: left;
+}
+
+thead {
+	th {
+		background-color: #55608f;
+	}
+}
+
+tbody {
+	tr {
+		&:hover {
+			background-color: rgba(255,255,255,0.3);
+		}
+	}
+	td {
+		position: relative;
+		&:hover {
+			&:before {
+				content: "";
+				position: absolute;
+				left: 0;
+				right: 0;
+				top: -9999px;
+				bottom: -9999px;
+				background-color: rgba(255,255,255,0.2);
+				z-index: -1;
+			}
